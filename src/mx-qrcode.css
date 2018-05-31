@@ -1,0 +1,35 @@
+.mx-qrcode {
+	width : 32px;
+	height : 32px;
+	background: url(./mx-qrcode.png) no-repeat;
+	background-size: 100% auto; 
+}
+
+.mx-qrcode #mx-url {
+	display: none;
+}
+
+.mx-qrcode-dialog .mx-qrcode-qrcode {
+	margin: 20px auto;
+}
+
+.mx-qrcode-dialog .mx-qrcode-url {
+	border: none;
+	width: 100%;
+}
+
+.mx-qrcode-dialog .mx-download-button {
+    margin: 0 auto 6px;
+    display: block;
+    min-width: 100px;
+}
+
+.mx-qrcode-dialog .mx-qrcode-author {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    padding-right: 6px;
+    color: #CC33FF;
+	font-style: italic;
+    font-weight: bold;
+}
