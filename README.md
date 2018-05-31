@@ -1,6 +1,9 @@
 # qrcode4jenkins
 Jenkins上显示二维码
 
+    请在Set build description，中增加以下内容
+    <div class="mx-qrcode"><a id="mx-uri" href="所需生成二维码链接"/></div>
+
 <img src="./example/p1.png">
 
 <img src="./example/p2.png">
